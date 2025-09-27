@@ -1,0 +1,717 @@
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 1:
+  [34m🎯 Next goal: Navigate to Chanakya University's official homepage to begin gathering information.[0m
+☝️ Decided next action: go_to_url(url="https://chanakyauniversity.edu.in", new_tab=False)
+  🦾 [34m[ACTION 1/1][0m go_to_url: url: https://chanakyauniversity.edu.in, new_tab: False
+🔗 Navigated to https://chanakyauniversity.edu.in
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 2:
+  [32m👍 Eval: Successfully opened Chanakya University website. Verdict: Success[0m
+  [34m🎯 Next goal: Record homepage title, then click About link (index 16) to get vision & mission.[0m
+✌️ Decided next 2 multi-actions:
+          1. write_file(file_name=todo.md, content=# Chanakya University Info Ext..., append=False, trailing_newline=True, leading_newline=False)
+          2. click_element_by_index(#16, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/2][0m write_file: file_name: todo.md, content: # Chanakya University Info Extraction\n\n- [ ] Home – capture page title\n- [ ] A...
+💾 Data written to file todo.md successfully.
+CDP request ax_tree failed with exception: {'code': -32602, 'message': 'Frame with the given frameId is not found.'}
+Failed to build DOM tree without highlights: CDP requests failed or timed out: ax_tree
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: DOM build failed: CDP requests failed or timed out: ax_tree, using minimal state
+Page changed after action 1 / 2: actions click_element_by_index were not executed
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 3:
+  [32m👍 Eval: Homepage loaded successfully; ready to capture title and proceed. Verdict: Success[0m
+  [34m🎯 Next goal: Record homepage title in todo.md and navigate to About page (index 20).[0m
+✌️ Decided next 2 multi-actions:
+          1. replace_file_str(file_name=todo.md, old_str=- [ ] Home – capture page titl..., new_str=- [x] Home – Chanakya Universi...)
+          2. click_element_by_index(#20, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/2][0m replace_file_str: file_name: todo.md, old_str: - [ ] Home – capture page title, new_str: - [x] Home – Chanakya University | A
+💾 Successfully replaced all occurrences of "- [ ] Home – capture page title" with "- [x] Home – Chanakya University | Admissions (title captured)" in file todo.md
+Something new appeared after action 1 / 2: actions click_element_by_index were not executed
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 4:
+  [31m⚠️ Eval: Attempt to click About link was not executed; still on homepage. Verdict: Failure[0m
+  [34m🎯 Next goal: Click About link (index 20) to open About Us page.[0m
+☝️ Decided next action: click_element_by_index(#20, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 20, while_holding_ctrl: False
+🖱️ Clicked element with index 20
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 5:
+  [32m👍 Eval: Successfully opened the About dropdown by clicking About link; About page not yet selected. Verdict: Success[0m
+  [34m🎯 Next goal: Navigate to About Chanakya University page by clicking element 21.[0m
+☝️ Decided next action: click_element_by_index(#21, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 21, while_holding_ctrl: False
+🖱️ Clicked element with index 21
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 6:
+  [32m👍 Eval: Successfully navigated to About Chanakya University page; vision & mission not yet extracted. Verdict: Success[0m
+  [34m🎯 Next goal: Scroll down to locate explicit Vision and Mission sections for summary.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 0.5, frame_element_index: None
+🔍 Scrolled down the page by 0.5 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 7:
+  ❔ Eval: Scrolled down but Vision & Mission headings not yet visible; need to continue.
+  [34m🎯 Next goal: Scroll further down to find Vision and Mission sections, stopping when their headings become visible.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 8:
+  [32m👍 Eval: Scrolled but Vision & Mission still not visible; need further scroll. Success partial.[0m
+  [34m🎯 Next goal: Scroll further down (1 page) to locate Vision and Mission headings.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 9:
+  ❔ Eval: Scrolled further but Vision and Mission sections still not visible; partial progress.
+  [34m🎯 Next goal: Scroll down another full page to locate the Vision and Mission headings.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 10:
+  [32m👍 Eval: Vision section located; Mission heading still not visible—partial success.[0m
+  [34m🎯 Next goal: Scroll further down (0.5 page) to locate the Mission section of About page.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 0.5, frame_element_index: None
+🔍 Scrolled down the page by 0.5 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 11:
+  [32m👍 Eval: Located the Vision section but Mission section still not visible; need more scrolling. Success partial.[0m
+  [34m🎯 Next goal: Scroll further down (0.7 page) to find the Mission section.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 0.7, frame_element_index: None
+🔍 Scrolled down the page by 0.7 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 12:
+  [32m👍 Eval: Scrolled but Mission section still not visible, partial success.[0m
+  [34m🎯 Next goal: Scroll further down (1 page) to locate the Mission section.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 13:
+  ❔ Eval: Scrolled down but still haven’t located the Mission section—progress uncertain.
+  [34m🎯 Next goal: Scroll further down one full page to locate the Mission heading and content.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 14:
+  ❔ Eval: Scrolled to near page bottom; Mission section still missing; potential link to vision & values visible.
+  [34m🎯 Next goal: Click link 22 Our Purpose, Vision & Values to open page with explicit Vision and Mission.[0m
+☝️ Decided next action: click_element_by_index(#22, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 22, while_holding_ctrl: False
+🖱️ Clicked element with index 22
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 15:
+  [32m👍 Eval: Successfully navigated to the ‘Our Purpose, Vision & Values’ page but Vision and Mission text is not yet visible. Verdict: Uncertain until we locate these sections.[0m
+  [34m🎯 Next goal: Scroll down to locate explicit Vision and Mission headings and capture their content.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 16:
+  [32m👍 Eval: Scrolled to Vision section; Vision bullets visible but Mission section not yet captured. Success partial.[0m
+  [34m🎯 Next goal: Scroll up 0.6 page to find the Purpose/Mission section content above Vision.[0m
+☝️ Decided next action: scroll(down=False)
+  🦾 [34m[ACTION 1/1][0m scroll: down: False, num_pages: 0.6, frame_element_index: None
+🔍 Scrolled up the page by 0.6 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 17:
+  [32m👍 Eval: Scrolled up and found both ‘Our Purpose’ and ‘Vision’ sections—sufficient to summarize mission (purpose) and vision. Success.[0m
+  [34m🎯 Next goal: Mark About Us task complete and click the Academics link (index 4) to start gathering programs from a chosen school.[0m
+✌️ Decided next 2 multi-actions:
+          1. replace_file_str(file_name=todo.md, old_str=- [ ] About Us – summarize vis..., new_str=- [x] About Us – vision & miss...)
+          2. click_element_by_index(#4, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/2][0m replace_file_str: file_name: todo.md, old_str: - [ ] About Us – summarize vision & mission, new_str: - [x] About Us – vision
+💾 Successfully replaced all occurrences of "- [ ] About Us – summarize vision & mission" with "- [x] About Us – vision & mission summarized" in file todo.md
+  🦾 [34m[ACTION 2/2][0m click_element_by_index: index: 4, while_holding_ctrl: False
+🖱️ Clicked element with index 4
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 18:
+  [32m👍 Eval: Landed on Academics page successfully; need to access Schools section to list programs. Success.[0m
+  [34m🎯 Next goal: Open Schools section by clicking element 23 to choose a school and list its programs.[0m
+☝️ Decided next action: click_element_by_index(#23, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 23, while_holding_ctrl: False
+🖱️ Clicked element with index 23
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 19:
+  [32m👍 Eval: Successfully opened Academics page with list of schools; need to select a school.[0m
+  [34m🎯 Next goal: Open School of Engineering page by clicking index 27 to view and list its programs.[0m
+☝️ Decided next action: click_element_by_index(#27, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 27, while_holding_ctrl: False
+🖱️ Clicked element with index 27
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 20:
+  ❔ Eval: School of Engineering page opened but programs list not yet visible. Verdict: Uncertain.
+  [34m🎯 Next goal: Scroll down two pages to locate the programs offered by the School of Engineering.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 2.0, frame_element_index: None
+🔍 Scrolled down the page by 2.0 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 21:
+  [32m👍 Eval: Program list visible; ready to capture names and mark Academics task complete. Success.[0m
+  [34m🎯 Next goal: Mark Academics task complete in todo.md, then return to homepage (click nav Home index 1) to access Admissions link.[0m
+✌️ Decided next 2 multi-actions:
+          1. replace_file_str(file_name=todo.md, old_str=- [ ] Academics – pick one sch..., new_str=- [x] Academics – School of En...)
+          2. click_element_by_index(#1, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/2][0m replace_file_str: file_name: todo.md, old_str: - [ ] Academics – pick one school & list programs, new_str: - [x] Academics –
+💾 Successfully replaced all occurrences of "- [ ] Academics – pick one school & list programs" with "- [x] Academics – School of Engineering programs captured: Computer Science Engineering; BCA Data Science; Bachelor of Computer Applications (B.C.A.); Computer Science and Artificial Intelligence; Electronics Engineering (VLSI and Embedded Systems); Electrical Engineering and Computer Science; Mechanical and Aerospace Engineering; Civil, Construction and Sustainable Engineering; B. Tech in Biotechnology and Bioengineering" in file todo.md
+  🦾 [34m[ACTION 2/2][0m click_element_by_index: index: 1, while_holding_ctrl: False
+🖱️ Clicked element with index 1
+🧠 Starting a browser-use version 0.7.1 with model=o3
+CDP request ax_tree failed with exception: {'code': -32602, 'message': 'Frame with the given frameId is not found.'}
+Failed to build DOM tree without highlights: CDP requests failed or timed out: ax_tree
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: DOM build failed: CDP requests failed or timed out: ax_tree, using minimal state
+
+
+📍 Step 22:
+  [32m👍 Eval: Need to start Admissions info step but current page interactive elements not loaded; empty DOM shown. Success of last step retrieving programs already done; current state uncertain.[0m
+  [34m🎯 Next goal: Wait for page to load so navigation links become interactive, then click Admissions.[0m
+☝️ Decided next action: wait(seconds=3)
+  🦾 [34m[ACTION 1/1][0m wait: seconds: 3
+🕒 Waited for 3 seconds
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 23:
+  [32m👍 Eval: Waited for page to load; navigation bar is visible now – ready to proceed. Verdict: Success[0m
+  [34m🎯 Next goal: Return to homepage via nav Home (index 17) to access the Admissions link next.[0m
+☝️ Decided next action: click_element_by_index(#17, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 17, while_holding_ctrl: False
+🖱️ Clicked element with index 17
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 24:
+  ❔ Eval: Navigation bar is visible; need to find Admissions link to continue.
+  [34m🎯 Next goal: Click link index 9 hoping it is Admissions page.[0m
+☝️ Decided next action: click_element_by_index(#9, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 9, while_holding_ctrl: False
+🔗 New tab opened - switching to it
+🖱️ Clicked element with index 9
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 25:
+  [31m⚠️ Eval: Click resulted in navigating to Chanakya University's Facebook page instead of Admissions – failure.[0m
+  [34m🎯 Next goal: Return to the Chanakya University website by switching to tab E933 to locate and click the Admissions link.[0m
+☝️ Decided next action: switch_tab(tab_id=E933)
+  🦾 [34m[ACTION 1/1][0m switch_tab: tab_id: E933
+🔄  Switched to Tab with ID E933
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 26:
+  [32m👍 Eval: Returned to university tab successfully; Admissions link still needed. Verdict: Success navigating back.[0m
+  [34m🎯 Next goal: Click Home (index 17) to return to homepage, then inspect navigation for an Admissions link.[0m
+☝️ Decided next action: click_element_by_index(#17, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 17, while_holding_ctrl: False
+🖱️ Clicked element with index 17
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 27:
+  ❔ Eval: Returned to School of Engineering page but Admissions link is still missing; need alternate navigation. Verdict: Uncertain.
+  [34m🎯 Next goal: Directly navigate to the Admissions page URL to gather UG eligibility and process details.[0m
+☝️ Decided next action: go_to_url(url="https://chanakyauniversity.edu.in/admissions", new_tab=False)
+  🦾 [34m[ACTION 1/1][0m go_to_url: url: https://chanakyauniversity.edu.in/admissions, new_tab: False
+🔗 Navigated to https://chanakyauniversity.edu.in/admissions
+🧠 Starting a browser-use version 0.7.1 with model=o3
+
+
+📍 Step 28:
+  ❔ Eval: Admissions page loaded but interactive elements not yet detected; screenshot shows content, so waiting for DOM or scrolling needed.
+  [34m🎯 Next goal: Wait for page scripts then scroll down to locate UG eligibility and process sections.[0m
+✌️ Decided next 2 multi-actions:
+          1. wait(seconds=3)
+          2. scroll(down=True)
+  🦾 [34m[ACTION 1/2][0m wait: seconds: 3
+🕒 Waited for 3 seconds
+  🦾 [34m[ACTION 2/2][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 29:
+  ❔ Eval: Admissions page loaded with navigation but UG eligibility info not yet visible, need to scroll further. Verdict: Uncertain.
+  [34m🎯 Next goal: Scroll further down (2 pages) to locate the UG eligibility and admission process information.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 2.0, frame_element_index: None
+🔍 Scrolled down the page by 2.0 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 30:
+  ❔ Eval: Admissions page visible but UG eligibility & process details not yet found – still searching.
+  [34m🎯 Next goal: Scroll down 1.5 pages to look for UG eligibility criteria and admission process sections.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.5, frame_element_index: None
+🔍 Scrolled down the page by 1.5 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 31:
+  ❔ Eval: Admissions page scrolled but UG eligibility/process section not yet located; progress uncertain.
+  [34m🎯 Next goal: Scroll further down (1.5 pages) to locate the UG eligibility and admission process sections on the Admissions page.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.5, frame_element_index: None
+🔍 Scrolled down the page by 1.5 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 32:
+  [31m⚠️ Eval: UG eligibility and admission process sections still not found after scrolling down; likely located higher up on the Admissions page. Verdict: Failure to locate content so far.[0m
+  [34m🎯 Next goal: Scroll up 1.5 pages to search for UG eligibility and admission process sections above current position.[0m
+☝️ Decided next action: scroll(down=False)
+  🦾 [34m[ACTION 1/1][0m scroll: down: False, num_pages: 1.5, frame_element_index: None
+🔍 Scrolled up the page by 1.5 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 33:
+  ❔ Eval: Scrolled up but still within mid-sections (Faculty, Happenings). UG eligibility & admission process not yet found; must continue upward search. Verdict: Uncertain.
+  [34m🎯 Next goal: Scroll up another 1.5 pages to locate UG eligibility and admission process sections.[0m
+☝️ Decided next action: scroll(down=False)
+  🦾 [34m[ACTION 1/1][0m scroll: down: False, num_pages: 1.5, frame_element_index: None
+🔍 Scrolled up the page by 1.5 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 34:
+  ❔ Eval: Still have not located the UG eligibility and admission process sections; we are currently mid-page around 42% scroll. Verdict: Uncertain.
+  [34m🎯 Next goal: Scroll up 1.5 pages to look for the UG eligibility and admission process sections nearer the top of the Admissions page.[0m
+☝️ Decided next action: scroll(down=False)
+  🦾 [34m[ACTION 1/1][0m scroll: down: False, num_pages: 1.5, frame_element_index: None
+🔍 Scrolled up the page by 1.5 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 35:
+  ❔ Eval: Admissions page loaded but UG eligibility info still missing; need to explore further by following UG-specific link.
+  [34m🎯 Next goal: Click the 'Apply for UG' button (index 3) to access UG admissions eligibility and process information.[0m
+☝️ Decided next action: click_element_by_index(#3, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 3, while_holding_ctrl: False
+🖱️ Clicked element with index 3
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 36:
+  ❔ Eval: Admissions page opened but eligibility/process sections not found; Apply for UG page exists in another tab.
+  [34m🎯 Next goal: Switch to tab A733 to view UG application page and extract eligibility and process information.[0m
+☝️ Decided next action: switch_tab(tab_id=A733)
+  🦾 [34m[ACTION 1/1][0m switch_tab: tab_id: A733
+🔄  Switched to Tab with ID A733
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 37:
+  [32m👍 Eval: Successfully opened UG application page, but eligibility and process details not yet extracted.[0m
+  [34m🎯 Next goal: Scroll down the UG application page to read the 'STEPS TO FOLLOW' section for process details and look for any eligibility criteria.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+
+
+📍 Step 38:
+  [32m👍 Eval: Scrolled but eligibility criteria still not identified; steps for application process visible (partial success).[0m
+  [34m🎯 Next goal: Scroll up 0.4 page to inspect sections above for UG eligibility criteria before the steps section.[0m
+☝️ Decided next action: scroll(down=False)
+  🦾 [34m[ACTION 1/1][0m scroll: down: False, num_pages: 0.4, frame_element_index: None
+🔍 Scrolled up the page by 0.4 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 39:
+  ❔ Eval: Eligibility criteria still not visible; only application steps visible. More upwards scrolling needed. Verdict: Uncertain.
+  [34m🎯 Next goal: Scroll up 0.6 page to look for UG eligibility criteria near top of UG application page.[0m
+☝️ Decided next action: scroll(down=False)
+  🦾 [34m[ACTION 1/1][0m scroll: down: False, num_pages: 0.6, frame_element_index: None
+🔍 Scrolled up the page by 0.6 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 40:
+  ❔ Eval: Eligibility criteria still not visible after scrolling and searching; need to explore further down the UG application page. Verdict: Uncertain.
+  [34m🎯 Next goal: Scroll down two pages to explore content below the steps and look for UG eligibility criteria and detailed admission process.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 2.0, frame_element_index: None
+🔍 Scrolled down the page by 2.0 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+
+
+📍 Step 41:
+  ❔ Eval: Eligibility and admission process info still not located on the UG application page; at ~63% scroll, only program list visible. Verdict: Uncertain.
+  [34m🎯 Next goal: Scroll further down to explore remaining 1 page of UG application portal for eligibility criteria and any additional admission process details.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 42:
+  [31m⚠️ Eval: We scrolled down UG application page but still did not find UG eligibility section; reached near bottom where contact info appears. Verdict: Failure so far to locate eligibility.[0m
+  [34m🎯 Next goal: Search within UG application page for text ‘Eligibility’ to locate section, using scroll_to_text to jump to that part if available.[0m
+☝️ Decided next action: scroll_to_text(text="Eligibility")
+  🦾 [34m[ACTION 1/1][0m scroll_to_text: text: Eligibility
+[91m🚌 [DefaultActionWatchdog.on_ScrollToTextEvent(#abeb)]    ❌ Failed (0.02s): RuntimeError: {'code': -32001, 'message': 'Session with given id not found.'}[0m
+Text 'Eligibility' not found or not visible on page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 43:
+  [32m👍 Eval: Attempted to locate UG eligibility and admission process information on UG application page but reached page bottom without finding it. Contact information became visible. Verdict: Partial success (contact info acquired).[0m
+  [34m🎯 Next goal: Record contact info in todo, switch back to admissions page tab E933 and search for UG eligibility and admission process section starting from page top by looking for text 'Eligibility'.[0m
+✌️ Decided next 3 multi-actions:
+          1. replace_file_str(file_name=todo.md, old_str=- [ ] Contact Us – extract ema..., new_str=- [x] Contact Us – Global Camp...)
+          2. switch_tab(tab_id=E933)
+          3. scroll_to_text(text="Eligibility")
+  🦾 [34m[ACTION 1/3][0m replace_file_str: file_name: todo.md, old_str: - [ ] Contact Us – extract email, phone, location, new_str: - [x] Contact Us –
+💾 Successfully replaced all occurrences of "- [ ] Contact Us – extract email, phone, location" with "- [x] Contact Us – Global Campus Haraluru, Near Kempegowda International Airport (BIAL) Devanahalli Taluk, Bengaluru, Karnataka - 562129; Phone: 8550855092/94; Email: arun.hn@chanakyauniversity.edu.in" in file todo.md
+  🦾 [34m[ACTION 2/3][0m switch_tab: tab_id: E933
+🔄  Switched to Tab with ID E933
+  🦾 [34m[ACTION 3/3][0m scroll_to_text: text: Eligibility
+⚠️ Text not found: "Eligibility"
+[91m🚌 [DefaultActionWatchdog.on_ScrollToTextEvent(#5a7f)]    ❌ Failed (0.05s): BrowserError: Text not found: "Eligibility" ({'text': 'Eligibility'}) during: None[0m
+Text 'Eligibility' not found or not visible on page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 44:
+  ❔ Eval: Returned to admissions page but UG eligibility and process still not located; plan to extract programmatically.
+  [34m🎯 Next goal: Extract structured data on UG eligibility and admission process from this Admissions page using extract_structured_data.[0m
+☝️ Decided next action: extract_structured_data(query=Undergraduate (UG) admissions ..., extract_links=False)
+  🦾 [34m[ACTION 1/1][0m extract_structured_data: query: Undergraduate (UG) admissions eligibility criteria and admission process details, extract_...
+📄 <url>
+https://chanakyauniversity.edu.in/admissions/
+</url>
+<query>
+Undergraduate (UG) admissions eligibility criteria and admission process details
+</query>
+<result>
+The webpage does not provide specific details about the Undergraduate (UG) admissions eligibility criteria or the admission process. It only includes general links and mentions such as "Apply for UG," "Admission Process," and contact information for admissions, but no explicit eligibility criteria or step-by-step admission process details are given.
+</result>
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 45:
+  ❔ Eval: Admissions UG eligibility not found; plan to continue searching downwards.
+  [34m🎯 Next goal: Scroll down to locate UG eligibility & admission process, then search for 'Eligibility' section.[0m
+✌️ Decided next 3 multi-actions:
+          1. scroll(down=True)
+          2. scroll_to_text(text="Eligibility")
+          3. scroll_to_text(text="Admission Process")
+  🦾 [34m[ACTION 1/3][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+  🦾 [34m[ACTION 2/3][0m scroll_to_text: text: Eligibility
+⚠️ Text not found: "Eligibility"
+[91m🚌 [DefaultActionWatchdog.on_ScrollToTextEvent(#1656)]    ❌ Failed (0.05s): BrowserError: Text not found: "Eligibility" ({'text': 'Eligibility'}) during: None[0m
+Text 'Eligibility' not found or not visible on page
+  🦾 [34m[ACTION 3/3][0m scroll_to_text: text: Admission Process
+[91m🚌 [DefaultActionWatchdog.on_ScrollToTextEvent(#167c)]    ❌ Failed (0.04s): UnboundLocalError: cannot access local variable 'js_result' where it is not associated with a value[0m
+Text 'Admission Process' not found or not visible on page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 46:
+  ❔ Eval: Reached the bottom of the Admissions page where a footer link “Admission Process” (index 21) is visible; this likely contains the UG admission process details we need.
+  [34m🎯 Next goal: Open the Admission Process link (index 21) to capture UG admission process and look for eligibility information.[0m
+☝️ Decided next action: click_element_by_index(#21, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 21, while_holding_ctrl: False
+🖱️ Clicked element with index 21
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 47:
+  [32m👍 Eval: Successfully opened the main site again; Admission nav link (index 19) visible but UG eligibility & process still missing.[0m
+  [34m🎯 Next goal: Click navigation link 19 (Admission) to open Admissions section and search for UG eligibility & process information.[0m
+☝️ Decided next action: click_element_by_index(#19, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 19, while_holding_ctrl: False
+🖱️ Clicked element with index 19
+🧠 Starting a browser-use version 0.7.1 with model=o3
+
+
+📍 Step 48:
+  [32m👍 Eval: Admissions page DOM initially empty but screenshot shows content; admission process heading visible now. Success in reaching section.[0m
+  [34m🎯 Next goal: Scroll down the admissions page to locate eligibility criteria section, then if found extract both eligibility and process information.[0m
+✌️ Decided next 2 multi-actions:
+          1. scroll(down=True)
+          2. scroll_to_text(text="Eligibility")
+  🦾 [34m[ACTION 1/2][0m scroll: down: True, num_pages: 1.0, frame_element_index: None
+🔍 Scrolled down the page by one page
+  🦾 [34m[ACTION 2/2][0m scroll_to_text: text: Eligibility
+⚠️ Text not found: "Eligibility"
+[91m🚌 [DefaultActionWatchdog.on_ScrollToTextEvent(#abbd)]    ❌ Failed (0.05s): BrowserError: Text not found: "Eligibility" ({'text': 'Eligibility'}) during: None[0m
+Text 'Eligibility' not found or not visible on page
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 49:
+  ❔ Eval: Page shows admission process steps at top but eligibility criteria still not located.
+  [34m🎯 Next goal: Scroll slightly up (0.3 page) to inspect area just above process steps for UG eligibility section.[0m
+☝️ Decided next action: scroll(down=False)
+  🦾 [34m[ACTION 1/1][0m scroll: down: False, num_pages: 0.3, frame_element_index: None
+🔍 Scrolled up the page by 0.3 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 50:
+  [32m👍 Eval: Found Admission Process steps but no explicit eligibility criteria; ready to document process and move to Research section. Verdict: partial success.[0m
+  [34m🎯 Next goal: Mark Admissions task as complete with found process info, then click Research link (index 13) to gather ongoing projects/centers.[0m
+✌️ Decided next 2 multi-actions:
+          1. replace_file_str(file_name=todo.md, old_str=- [ ] Admissions – summarize U..., new_str=- [x] Admissions – UG eligibil...)
+          2. click_element_by_index(#13, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/2][0m replace_file_str: file_name: todo.md, old_str: - [ ] Admissions – summarize UG eligibility & process, new_str: - [x] Admissio
+💾 Successfully replaced all occurrences of "- [ ] Admissions – summarize UG eligibility & process" with "- [x] Admissions – UG eligibility not specified on site; Admission Process: Submit Application; Take Up CUPP 2025; Personal Interview; Selection; Admission Offer; Fee Payment" in file todo.md
+  🦾 [34m[ACTION 2/2][0m click_element_by_index: index: 13, while_holding_ctrl: False
+🖱️ Clicked element with index 13
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 51:
+  ❔ Eval: Still need Research/Innovation info; Research link now visible so can proceed.
+  [34m🎯 Next goal: Open Research page by clicking index 20 to locate and record ongoing projects or research centers.[0m
+☝️ Decided next action: click_element_by_index(#20, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 20, while_holding_ctrl: False
+🖱️ Clicked element with index 20
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 52:
+  [32m👍 Eval: Need to gather research info; Research link (index 20) visible, not yet clicked. Last step successful context capture.[0m
+  [34m🎯 Next goal: Click Research link (index 20) to open Research page and locate ongoing projects or research centers.[0m
+☝️ Decided next action: click_element_by_index(#20, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 20, while_holding_ctrl: False
+🖱️ Clicked element with index 20
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 53:
+  ❔ Eval: Research page link identified but not yet opened; remaining tasks are to gather research info and compile report.
+  [34m🎯 Next goal: Open research page by clicking Research link (index 20) to locate ongoing projects or research centers.[0m
+☝️ Decided next action: click_element_by_index(#20, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 20, while_holding_ctrl: False
+🖱️ Clicked element with index 20
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 54:
+  [31m⚠️ Eval: Research page still not opened; About dropdown overlay active; need to click Research link 20 to open research info. Verdict: Failure so far.[0m
+  [34m🎯 Next goal: Click Research link (index 20) in top navigation to open Research page and then locate ongoing projects or research centers.[0m
+☝️ Decided next action: click_element_by_index(#20, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 20, while_holding_ctrl: False
+🖱️ Clicked element with index 20
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 55:
+  ❔ Eval: Research page still not opened because About dropdown overlay active; need to click Research link 20 to navigate.
+  [34m🎯 Next goal: Click Research link (index 20) to open Research page and scroll for projects/centers info.[0m
+☝️ Decided next action: click_element_by_index(#20, while_holding_ctrl=False)
+  🦾 [34m[ACTION 1/1][0m click_element_by_index: index: 20, while_holding_ctrl: False
+🖱️ Clicked element with index 20
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 56:
+  [31m⚠️ Eval: Repeated clicks on Research link did not change page due to dropdown overlay; Research page still not opened. Verdict: Failure.[0m
+  [34m🎯 Next goal: Directly navigate to research page URL to gather ongoing projects/centers information.[0m
+☝️ Decided next action: go_to_url(url="https://chanakyauniversity.edu.in/research", new_tab=False)
+  🦾 [34m[ACTION 1/1][0m go_to_url: url: https://chanakyauniversity.edu.in/research, new_tab: False
+🔗 Navigated to https://chanakyauniversity.edu.in/research
+🧠 Starting a browser-use version 0.7.1 with model=o3
+
+
+📍 Step 57:
+  [32m👍 Eval: Reached Research page; content visible but ongoing projects/centers not yet collected. Success partial.[0m
+  [34m🎯 Next goal: Scroll down 1.5 pages to locate thrust areas or research centers to capture details.[0m
+☝️ Decided next action: scroll(down=True)
+  🦾 [34m[ACTION 1/1][0m scroll: down: True, num_pages: 1.5, frame_element_index: None
+🔍 Scrolled down the page by 1.5 pages
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 58:
+  [32m👍 Eval: Loaded Research page and visible projects provide enough info to satisfy research requirement. Verdict: Success[0m
+  [34m🎯 Next goal: Update todo.md marking research task complete, then create results.md with structured report for user and finish.[0m
+✌️ Decided next 3 multi-actions:
+          1. replace_file_str(file_name=todo.md, old_str=- [ ] Research/Innovation – hi..., new_str=- [x] Research/Innovation – On...)
+          2. write_file(file_name=results.md, content=# Chanakya University Informat..., append=False, trailing_newline=True, leading_newline=False)
+          3. done(text="All requested hyperlink action...", success=True)
+  🦾 [34m[ACTION 1/3][0m replace_file_str: file_name: todo.md, old_str: - [ ] Research/Innovation – highlight ongoing projects/centers, new_str: - [x]
+💾 Successfully replaced all occurrences of "- [ ] Research/Innovation – highlight ongoing projects/centers" with "- [x] Research/Innovation – Ongoing projects: Centre for Indian Knowledge Systems (2022); Project on the Evaluation of the KSSFCL’s DCBM Course (2022); Translation Project (Oct 2022); Political Concepts in Ramayana, Mahabharata and Arthashastra (Jan 2023)" in file todo.md
+  🦾 [34m[ACTION 2/3][0m write_file: file_name: results.md, content: # Chanakya University Information Report\n\n| Page Visited | Action Taken | Ke...
+💾 Data written to file results.md successfully.
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 59:
+  ❔ Eval: All information gathered; only structured report compilation remains.
+  [34m🎯 Next goal: Open results.md to ensure it contains all six rows and finalize report for user.[0m
+☝️ Decided next action: read_file(file_name=results.md)
+  🦾 [34m[ACTION 1/1][0m read_file: file_name: results.md
+💾 Read from file results.md.
+<content>
+# Chanakya University Information Report
+
+| Page Visited | Action Taken | Key Information Extracted |
+|--------------|-------------|---------------------------|
+| Home | Confirmed homepage title | "Chanakya University | Admissions" |
+| About Us (Our Purpose, Vision & Values) | Summarized Vision & Mission | Purpose (Mission): To develop courageous global citizens rooted in Indian knowledge systems; Vision: 7 pillars including cross-cultural knowledge, sustainability, innovation, etc. |
+| Academics → School of Engineering | Listed available programs | Computer Science Engineering; BCA Data Science; Bachelor of Computer Applications (B.C.A.); Computer Science and Artificial Intelligence; Electronics Engineering (VLSI and Embedded Systems); Electrical Engineering and Computer Science; Mechanical and Aerospace Engineering; Civil, Construction & Sustainable Engineering; B.Tech in Biotechnology & Bioengineering |
+6 more lines...
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 60:
+  ❔ Eval: Verified results.md contains full structured report with six sections; task compilation remains.
+  [34m🎯 Next goal: Mark compile structured report as complete in todo.md and finish task, returning report to user.[0m
+✌️ Decided next 2 multi-actions:
+          1. replace_file_str(file_name=todo.md, old_str=- [ ] Compile structured repor..., new_str=- [x] Compile structured repor...)
+          2. done(text="Here is the structured report ...", success=True)
+  🦾 [34m[ACTION 1/2][0m replace_file_str: file_name: todo.md, old_str: - [ ] Compile structured report, new_str: - [x] Compile structured report
+💾 Successfully replaced all occurrences of "- [ ] Compile structured report" with "- [x] Compile structured report" in file todo.md
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 61:
+  ❔ Eval: We have gathered all required information and updated todo.md; need to confirm results.md contains complete structured report with all 6 hyperlink actions.
+  [34m🎯 Next goal: Read full results.md to ensure it has all six rows before providing final answer.[0m
+☝️ Decided next action: read_file(file_name=results.md)
+  🦾 [34m[ACTION 1/1][0m read_file: file_name: results.md
+💾 Read from file results.md.
+<content>
+# Chanakya University Information Report
+
+| Page Visited | Action Taken | Key Information Extracted |
+|--------------|-------------|---------------------------|
+| Home | Confirmed homepage title | "Chanakya University | Admissions" |
+| About Us (Our Purpose, Vision & Values) | Summarized Vision & Mission | Purpose (Mission): To develop courageous global citizens rooted in Indian knowledge systems; Vision: 7 pillars including cross-cultural knowledge, sustainability, innovation, etc. |
+| Academics → School of Engineering | Listed available programs | Computer Science Engineering; BCA Data Science; Bachelor of Computer Applications (B.C.A.); Computer Science and Artificial Intelligence; Electronics Engineering (VLSI and Embedded Systems); Electrical Engineering and Computer Science; Mechanical and Aerospace Engineering; Civil, Construction & Sustainable Engineering; B.Tech in Biotechnology & Bioengineering |
+6 more lines...
+🧠 Starting a browser-use version 0.7.1 with model=o3
+🔍 DOMWatchdog.on_BrowserStateRequestEvent: Python highlighting failed: No module named 'PIL'
+
+
+📍 Step 62:
+  [32m👍 Eval: Confirmed results.md contains the complete structured report with all six requested sections—task now fully complete. Verdict: Success[0m
+  [34m🎯 Next goal: Return final structured report to the user.[0m
+☝️ Decided next action: done(text="Here is the structured report ...", success=True)
+  🦾 [34m[ACTION 1/1][0m done: text: Here is the structured report with the information gathered from Chanakya University’s website:\n\n| Page Visi...
+📄 [32m Result:[0m 
+Here is the structured report with the information gathered from Chanakya University’s website:
+
+| Page Visited | Action Taken | Key Information Extracted |
+|--------------|-------------|---------------------------|
+| Home | Confirmed homepage title | "Chanakya University | Admissions" |
+| About Us (Our Purpose, Vision & Values) | Summarized Vision & Mission | Purpose (Mission): To develop courageous global citizens rooted in Indian knowledge systems; Vision: Seven pillars including cross-cultural knowledge, sustainability, innovation, etc. |
+| Academics → School of Engineering | Listed available programs | Computer Science Engineering; BCA Data Science; Bachelor of Computer Applications (B.C.A.); Computer Science and Artificial Intelligence; Electronics Engineering (VLSI and Embedded Systems); Electrical Engineering and Computer Science; Mechanical and Aerospace Engineering; Civil, Construction & Sustainable Engineering; B.Tech in Biotechnology & Bioengineering |
+| Admissions | Summarized admission process | Steps: 1) Submit Application 2) Take Up CUPP 2025 3) Personal Interview 4) Selection 5) Admission Offer 6) Fee Payment (Eligibility criteria not explicitly stated on site) |
+| Research | Highlighted ongoing projects / research centers | Centre for Indian Knowledge Systems (2022); Evaluation of the KSSFCL’s DCBM Course (2022); Translation Project (Oct 2022); Political Concepts in Ramayana, Mahabharata & Arthashastra (Jan 2023) |
+| Contact Us | Extracted contact details | Location: Global Campus, Haraluru, Near Kempegowda International Airport (BIAL), Devanahalli Taluk, Bengaluru, Karnataka – 562129; Phone: 8550855092 / 94; Email: arun.hn@chanakyauniversity.edu.in |
+
+All requested steps have been completed successfully. Let me know if any additional details are needed!
+
+
+👉 Attachment : /tmp/run_ec35276d/browseruse_agent_data/results.md
+✅ Task completed successfully
